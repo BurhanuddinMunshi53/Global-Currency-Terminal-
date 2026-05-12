@@ -1,27 +1,45 @@
 # 💱 Global Currency Terminal — Aether Omni Terminal
 
-> "All nodes secured. Satellite link established. Sir."
+> *"All nodes secured. Satellite link established. Sir."*
 
-Cinematic terminal app for global financial intelligence. 195+ currencies, precious metals, parity math, inflation risk, and macroeconomic diagnostics inside a spectral glitch HUD.
+A cinematic terminal application for global financial intelligence. Covers 195+ currencies, precious metals spot prices, exact parity math, inflation risk tracking, and macroeconomic diagnostics — all wrapped in a spectral glitch animation engine and an arc reactor-inspired HUD.
 
-## Modules
-01 · Global Market Stream — live USD rates across 195+ nations
-02 · Precious Metal Vault — Gold, Silver, Platinum, Palladium spot prices
-03 · High Precision Parity — exact currency conversion calculator
-04 · Geospatial Node Search — find any country or currency code
-05 · Market Volatility Radar — risk status per trading pair
-06 · Inflation Risk Alerts — devaluation tracking for high-risk currencies
-07 · Central Bank Rates — FED, ECB, RBI, BOE benchmark rates
-08 · Liquidity Diagnostics — friction across global trading hubs
-09 · Strength Momentum Map — bullish vs bearish signals
-10 · Terminal Diagnostics — system integrity check
+---
 
-## Installation
+## 🌐 Modules
+
+| Code | Module | Description |
+|------|--------|-------------|
+| `01` | Global Market Stream | Live USD-based rates across 195+ nations |
+| `02` | Precious Metal Vault | Real-time Gold, Silver, Platinum, Palladium prices |
+| `03` | High Precision Parity | Exact currency arbitrage conversion calculator |
+| `04` | Geospatial Node Search | Find any country or currency code instantly |
+| `05` | Market Volatility Radar | Risk and entropy status per trading pair |
+| `06` | Inflation Risk Alerts | Devaluation tracking for high-risk currencies |
+| `07` | Central Bank Rates | FED, ECB, RBI, BOE benchmark interest rates |
+| `08` | Liquidity Diagnostics | Transaction friction across global trading hubs |
+| `09` | Strength Momentum Map | Bullish vs bearish currency momentum signals |
+| `10` | Terminal Diagnostics | System integrity and satellite sync check |
+| `XX` | System Disconnect | Graceful cinematic shutdown sequence |
+
+---
+
+## 🗺️ Global Coverage
+
+195+ currencies organized across 5 continental nodes:
+
+| Continent | Nations |
+|-----------|---------|
+| AFRICA | 50 nations |
+| ASIA | 47 nations |
+| EUROPE | 44 nations |
+| AMERICAS | 33 nations |
+| OCEANIA | 14 nations |
+
+---
+
+## ⚙️ Installation
+
+```bash
 pip install requests
 python Global_Currency_Terminal.py
-
-## APIs Used
-open.er-api.com · gold-api.com (both free, no key required)
-
-## Requirements
-Python 3.7+ · Internet connection · 256-color ANSI terminal
